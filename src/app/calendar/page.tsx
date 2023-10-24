@@ -83,7 +83,7 @@ function Home() {
   return (
     <div className="p-16 gap-3  min-h-screen flex items-center justify-center">
       <div className="flex items-center md:flex-row flex-col md:gap-0 gap-5">
-        <div className="w-[400px] border-r px-4">
+        <div className="w-[400px] md:border-r px-4">
           <div className="flex items-center justify-between">
             <h1 className="font-semibold">
               {format(firstDayOfCurrentMonth, "MMMM yyyy")}
